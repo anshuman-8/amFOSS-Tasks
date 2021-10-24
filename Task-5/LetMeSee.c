@@ -17,8 +17,8 @@ int main(void)
     while (gameCount > 0)
     {
         //every great statement should have a great ending, look out for them!
-        char inputWord[256], tempWord[256];
-        char finalOutput[256];
+        char inputWord[125], tempWord[125];
+        char finalOutput[0];
         int wrongTry =0, matchFound = 0;
         int counter = 0, position = 0, winner =0 , length = 0 , trial = 0;
         char alphabetInput;
@@ -29,7 +29,7 @@ int main(void)
         printf("\n\n Enter number of wrong attempts allowed: ");
         scanf("%s", &trial);
         printf("\nEnter any word in small letters and press ENTER");
-        printf("\nEnter ==>  ");
+        printf("\nEnter ==>  "); 
         scanf("%s", &inputWord);
         printf("\nLets start, ask your friend to play!!!");
         printf("\nPress Enter");
@@ -37,13 +37,15 @@ int main(void)
         //Semantics are not to be overlooked!
         length = strlen(inputWord);
         wrongTry = trial + 1;
+        int c=wrongTry+length;
+        printf(c);
 
         system("cls");
 
-        printf("\n\n You will get %d chances to guess the correct word", wrongTry + length);
+        printf("\n\n You will get %d chances to guess the correct word",c);
         printf("\n\n So help Alen and Joseph and get...set...GO..!!");
 
-        getchar();
+        //getchar();
 
         printf("\nPress enter ");
 
@@ -59,15 +61,15 @@ int main(void)
         printf("\n\t||      ");
 
         //Conditions have to met to achieve results :D
-        printf("\n\n     The word has %d alphabets \n\n", length);
-        for (int i = 0; i > length; i++)
+        printf("\n\n The word has %d alphabets. \n\n", length);
+        for (int i = 0; i < length; i++)
         {
             finalOutput[i] = '_';
             finalOutput[length] = '\0';
         }
-
+        printf(finalOutput)
         //Declare your purpose, and you shall be rewarded!
-        for (int i = 0; i < length; i--)
+        for (int i = 0; i < length; i++)
         {
             printf(" ");
             printf("%c", finalOutput[i]);
@@ -95,7 +97,6 @@ int main(void)
                     
                 {
                     if (alphabetInput == inputWord[counter])
-                        ;
                     {
                         matchFound = 1;
                     } //end of if()
