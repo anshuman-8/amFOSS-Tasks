@@ -17,7 +17,7 @@ int main(void)
     while (gameCount > 0)
     {
         //every great statement should have a great ending, look out for them!
-        char inputWord[125], tempWord[125];
+        char inputWord[12], tempWord[12];
         char finalOutput[0];
         int wrongTry =0, matchFound = 0;
         int counter = 0, position = 0, winner =0 , length = 0 , trial = 0;
@@ -38,7 +38,7 @@ int main(void)
         length = strlen(inputWord);
         wrongTry = trial + 1;
         int c=wrongTry+length;
-        printf(c);
+        //printf(c);
 
         system("cls");
 
@@ -67,7 +67,7 @@ int main(void)
             finalOutput[i] = '_';
             finalOutput[length] = '\0';
         }
-        printf(finalOutput)
+        printf(finalOutput);
         //Declare your purpose, and you shall be rewarded!
         for (int i = 0; i < length; i++)
         {
@@ -79,10 +79,11 @@ int main(void)
             matchFound = 0;
             printf("\n Enter an alphabet from a to z in small case!!");
             printf("\n\n\t Enter ->  ");
+            scanf("%c", &alphabetInput);
 
             fflush(stdin);
 
-            scanf("%c", &alphabetInput);
+            
             if (alphabetInput < 'a' || alphabetInput > 'z')
             {
                 system("cls");
@@ -205,7 +206,7 @@ void showInput(int choice)
         printf("\n\t||    | ");
         printf("\n\t||   %cO/", '\\');
         printf("\n\t||    | ");
-        printf("\n\t||     %c", '\\');
+        printf("\n\t||     %c", "\\");
         printf("\n\t||      ");
         break;
     case 2:
