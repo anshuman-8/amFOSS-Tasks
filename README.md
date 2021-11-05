@@ -1,4 +1,4 @@
 # amFOSS-Tasks
 
 
-Hey guys, I am still working on these tasks.:)
+Hey guys, I am still working on these tasks :)
