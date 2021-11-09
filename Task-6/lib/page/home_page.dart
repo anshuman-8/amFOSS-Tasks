@@ -20,10 +20,16 @@ class HomePage extends StatelessWidget {
                 
               ),
               Text(
-                'hello how are youncjhdnwkjh asjdhcsndfkjh qjdfhcofebfkjhw kjhclndkfhgdc bhiud ihbdf hi dfihbwrkhfbh knsdf, iuhdsuhs sdkjcsdkjvbi sdhbvkd vihbdklbfviuwbkiwu9 ekjbfuowe fknwfwmdnvjwdfckhfwef kwhigfj hhjdfgn iufbjb ',
-                style: TextStyle(fontSize: 20),
+                'Hey Guys, My Name is Anshuman, currently living in Kochi, Kerala.I love listening Music, watching movies, going for jogging and enjoy coding and doing computer stuff. I like meeting and talking to many people(offline), Hope to see you soon :)',
+              
+
                 textAlign: TextAlign.center,
+               //softWrap: true,
+               style: TextStyle(
+               color: Colors.blueGrey[900],
+               fontSize: 20,)
               ),
+              //Text('df'),
             ],
           ),
         ),
