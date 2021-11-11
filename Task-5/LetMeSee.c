@@ -137,15 +137,7 @@ int main(void)
                                 //printf("updated");
                                 break; 
                             }
-                            // else if( finalOutput[i] >= 'a' && finalOutput[i] <= 'z' ){
-                    
-                            //     continue;
-                            // }
-
-                            // else
-                            // {
-                            //     finalOutput[i] = '_';          
-                            // }
+                            
                         }
                         tempWord[position] = alphabetInput;     
                         tempWord[length] = '\0';                    
