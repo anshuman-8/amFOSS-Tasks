@@ -3,11 +3,11 @@
 
 Hey there I have recently downloaded ubuntu Linux on my laptop and today and over here I am going to tell you the detailed steps to dual boot ubuntu with windows pc.
 The requests are :
-    •   A pen drive 
-    •	Hard disk(optional)
-    •	A computer ( with enough storage space to run two operating system i.e. more than 100GB minimum)
+    *   A pen drive 
+    *	Hard disk(optional)
+    *	A computer ( with enough storage space to run two operating system i.e. more than 100GB minimum)
 
-So, that’s it here we are good to go.
+So, that’s it here, we are now good to go.
    1)	First step will be to back up all your important file on your external hard disk or on any cloud storage you use. This is just a safety measure, as we are dealing with installing an operating system, things might go wrong sometimes though chances are very low of happening. Afterall this step is optional and you can skip this step if are ready to take risk of losing files.
 
    2)	So, from here go to any of your favorite browser(recommended to use Chrome) and type “download ubuntu desktop”(or [click here](https://ubuntu.com/download/desktop)) and click on Download! Make sure it is the LTS version. Usually these files are big (around 2-3GB) so may take some time.
@@ -26,7 +26,7 @@ So, that’s it here we are good to go.
 
 ---
 
-Problems that I faced after installation was , the time shown in ubuntu and windows were different .
+Problems that I faced after installation was , **the time shown in ubuntu and windows were different** .
 
 Solution: This happens because Ubuntu keeps the hardware clock universal time(UTC), while windows keep the clock in local time, causing a conflict between the mentioned operative systems. The solution for this is either force Ubuntu to maintain the real-time clock in local time or force Windows to use UTC.
 Run the following command to make ubuntu use local time- 
