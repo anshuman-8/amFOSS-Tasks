@@ -11,7 +11,7 @@ ___
 [Task-0](https://github.com/anshuman-8/amFOSS-Tasks/tree/master/Task-0)| Install Ubuntu| Done
 [Task-1](https://github.com/anshuman-8/amFOSS-Tasks/tree/master/Task-1)| Star all amFOSS repositories|Done
 [Task-2](https://github.com/anshuman-8/amFOSS-Tasks/tree/master/Task-2)|Begining journey with Linux and Git| Done
-[Task-3](https://github.com/anshuman-8/amFOSS-Tasks/tree/master/Task-3)| Programming| Solved 6 questions
+[Task-3](https://github.com/anshuman-8/amFOSS-Tasks/tree/master/Task-3)| Programming| Solved 5 questions
 [Task-4](https://github.com/anshuman-8/amFOSS-Tasks/tree/master/Task-4)|  Aerglo Mars|Done
 [Task-5](https://github.com/anshuman-8/amFOSS-Tasks/tree/master/Task-5)| Let me C|Done
 [Task-6](https://github.com/anshuman-8/amFOSS-Tasks/tree/master/Task-6)| Flutter based UI task|Done
