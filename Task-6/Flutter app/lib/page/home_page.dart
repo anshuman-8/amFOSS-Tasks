@@ -27,7 +27,9 @@ class HomePage extends StatelessWidget {
                //softWrap: true,
                style: TextStyle(
                color: Colors.blueGrey[900],
-               fontSize: 20,)
+               fontSize: 20,
+                // PageDecoration getPageDecoration() => PageDecoration(descriptionPadding: EdgeInsets.all(16).copyWith(bottom: 0)),
+               )
               ),
               //Text('df'),
             ],

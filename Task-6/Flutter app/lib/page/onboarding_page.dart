@@ -14,18 +14,21 @@ class OnBoardingPage extends StatelessWidget {
               image: buildImage('assets/page1.png'),
               decoration: getPageDecoration(),
             ),
+
             PageViewModel(
               title: 'Healthy Freaks Exercises',
               body: 'Letting go is the hardest asana.',
               image: buildImage('assets/page2.png'),
               decoration: getPageDecoration(),
             ),
+
             PageViewModel(
               title: 'Cycling',
               body: 'You cannot always control what goes on outside. But you can always control what goes on inside',
               image: buildImage('assets/page3.png'),
               decoration: getPageDecoration(),
             ),
+            
             PageViewModel(
               title: 'Meditation',
               body: 'The longest journey for any person is the journey inward.',
@@ -38,7 +41,8 @@ class OnBoardingPage extends StatelessWidget {
           showSkipButton: true,
           skip: Text('Skip'),
           onSkip: () => goToHome(context),
-          next: Icon(Icons.arrow_forward),
+          //next: Icon(Icons.arrow_forward),
+          next: Text('Next', style: TextStyle(fontWeight: FontWeight.w500)),
           dotsDecorator: getDotDecoration(),
           onChange: (index) => print('Page $index selected'),
           globalBackgroundColor: Theme.of(context).primaryColor,
@@ -65,7 +69,7 @@ class OnBoardingPage extends StatelessWidget {
       );
 
   PageDecoration getPageDecoration() => PageDecoration(
-        titleTextStyle: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+        titleTextStyle: TextStyle(fontSize: 28, fontWeight: FontWeight.w500),
         bodyTextStyle: TextStyle(fontSize: 20),
         descriptionPadding: EdgeInsets.all(16).copyWith(bottom: 0),
         imagePadding: EdgeInsets.all(24),
