@@ -27,8 +27,8 @@ ___
 ___
 
 ### **Introduction**
- Hey Guys, I am Anshuman Swain.A fresher in Amrita University,Amritapuri and I am  currently living in Kochi Kerala.
- I enjoy programming and making stuff though I have not much greater experience with it before. I came across amFOSS from Quora which made me take admmision in Amrita. Enjoy working on projects with different people, for which I want to be part of the club. Looking forward I want to be better in programming.   
+ Hi Guys, I am Anshuman Swain, a fresher at Amrita University, Amritapuri and I currently live in Kochi Kerala.
+ I enjoy programming and making stuff, although I have not much greater experience with it previously. I came across amFOSS from Quora which made me take admission in Amrita. Enjoy working on projects with different people, for which I want to be part of the club. Looking forward I want to be better at programming.  
  ___
 
  ### **Experience with Tasks**
